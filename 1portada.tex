@@ -13,7 +13,7 @@
 % ~~ Este es el archivo que se compila! ^^'
 
 
-\documentclass[10pt,a4paper,twoside]{article}
+\documentclass[10pt, a4paper, twoside]{article}
 
 % Paquetes... probablemente alguno no sea necesario
 % SI INCLUYE ALGUNO POR FAVOR COLOQUE UN COMENTARIO AL FINAL DEL MISMO.
@@ -21,7 +21,7 @@
 \usepackage[utf8]{inputenc}                                                   
 \usepackage[greek,spanish]{babel}  % Símbolo del euro
 \usepackage{graphicx}
-\usepackage{a4,fancyhdr, multicol}
+\usepackage{a4, fancyhdr, multicol}
 \usepackage{float}
 \usepackage{pdftricks}
 \usepackage{pstricks}
@@ -187,10 +187,7 @@
 \vspace{1mm}
 }
 
-
 \newcommand{\EOP}{\psframe[fillstyle=solid, fillcolor=titlecolor, linecolor=titlecolor](0,0)(4pt,4pt)}
-
-\newcommand{\FIGDIR}{./images} 
 
 % Entornos (begin... end)
 % ----------------------------------------------------
@@ -221,6 +218,7 @@
 }
 
 
+% Entorno para introducir Biografia del Autor.
 \newenvironment{biografia}[2]{
 \vspace{10mm}
 \hrule
@@ -240,11 +238,13 @@
   \hrule
   \vspace{5mm}
 }
+% Entorno para introducir la bibliografia del articulo.
 \newenvironment{bibliografia}{
 \begin{thebibliography}{1}
 }{
 \end{thebibliography}
 }
+
 
 
 % **************************************************************************
@@ -271,9 +271,6 @@
 \definecolor{introcolor}{rgb}{0.6,0.7,0.3}
 
 %\include{editorial}
-
-
 \include{nombre_articulo}
-
 
 \end{document}
