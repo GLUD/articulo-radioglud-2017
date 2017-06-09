@@ -1,2 +1,4 @@
-# articulo-individual-2017
-Plantilla de Artículo Invididual Revista Colibrí GLUD 2017
+# articulo-radioglud-2017
+Artículo Radio GLUD Revista Colibrí GLUD 2017
+
+OJO en Overleaf necesita usar el LaTeX Engine "LaTeX divpdf".
